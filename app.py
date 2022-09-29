@@ -3,7 +3,6 @@ from aiogram import executor
 from loader import dp
 
 import middlewares
-import filters
 import handlers
 
 from utils.notify_admins import on_startup_notify
