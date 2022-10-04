@@ -22,3 +22,16 @@ goal_for_using = ReplyKeyboardMarkup(
         ]
     ]
 )
+
+
+computer_or_back = ReplyKeyboardMarkup(
+    resize_keyboard=True,
+    keyboard=[
+        [
+            KeyboardButton(text='Kompyuter ko\'rish')
+        ],
+        [
+            KeyboardButton(text='Orqaga')
+        ]
+    ]
+)
